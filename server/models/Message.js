@@ -27,8 +27,12 @@ const messageSchema = new mongoose.Schema({
     },
     readStatus:{
 
+        type:Boolean,
+        default:false
     },
     deliveredStatus:{
+        type:Boolean,
+        default:false
 
     },
 
